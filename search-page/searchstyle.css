@@ -1,0 +1,48 @@
+.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+}
+.container {
+    position: relative;
+    text-align: center;
+    color: black;
+}
+.top-left {
+    position: absolute;
+    top: 15px;
+    left: 50px;
+    font-size: 23px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.search {
+    top: 50%;
+    left: 50%;
+    position: absolute;
+    
+}
+.button-holder {
+    cursor: pointer;
+    float: left;
+    text-align: center;
+    position: absolute;
+    top: 25%;
+
+}
+h3 {
+    position: absolute;
+    left:40px;
+}
+h4 {
+    position: absolute;
+    left: 10px;
+    font-size: 25px;
+}
+button[type="Get notes"] {
+    background-color: black;
+    border: none;
+    padding: 10px 40px;
+    color: white;
+}
+
